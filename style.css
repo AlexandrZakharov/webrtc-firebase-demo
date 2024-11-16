@@ -14,6 +14,9 @@ video {
   height: 30vw;
   margin: 2rem;
   background: #2c3e50;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
 }
 
 .videos {
